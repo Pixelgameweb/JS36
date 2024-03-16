@@ -9,7 +9,6 @@ menuLinks.forEach(link => {
     });
     link.classList.add('active');
     const tabId = link.getAttribute('id').replace('content', 'tab');
- active
     tabs.forEach(tab => {
       tab.classList.remove('active');
     });
